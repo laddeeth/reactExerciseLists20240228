@@ -1,14 +1,9 @@
-.App {
-  width: 500px;
-  margin: 30px auto;
+.hide {
+  display: none;
 }
 
-.odd {
-  background-color: beige
-}
-
-.done,
-.done p,
-.done li {
-  text-decoration: line-through;
+.done:after {
+  content: '\2713';
+  display: inline-block;
+  color: green;
 }
